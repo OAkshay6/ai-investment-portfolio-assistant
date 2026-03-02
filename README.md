@@ -95,16 +95,12 @@ Chat history is maintained using Streamlit session state.
 
 ## Project Structure
 
-ai-investment-portfolio-assistant
-> ai_investment_portfolio_assistant.py
-
-> README.md
-
-> .gitignore
-
-> .env (not pushed to GitHub)
-
-> requirements.txt
+ai-investment-portfolio-assistant\
+- ai_investment_portfolio_assistant.py
+- README.md
+- .gitignore
+- .env (not pushed to GitHub)
+- requirements.txt
 
 ---
 
