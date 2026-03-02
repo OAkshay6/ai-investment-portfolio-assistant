@@ -57,9 +57,6 @@ chat_session = st.session_state.chat_session
 # Page setup
 # ==============================
 
-import streamlit as st
-import plotly.graph_objects as go
-
 st.set_page_config(page_title="AI Investment Assistant", layout="wide")
 
 st.title("AI Investment Portfolio Assistant")
@@ -229,7 +226,7 @@ if st.button("Reset Conversation"):
     st.session_state.chat_session = client.chats.create(
         model="gemini-2.5-flash",
         config=genai.types.GenerateContentConfig(
-            system_instruction="You are an experienced investment advisor."
+            system_instruction = syst_prompt
         )
     )
     st.rerun()
