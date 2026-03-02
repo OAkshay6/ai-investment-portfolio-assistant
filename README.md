@@ -108,7 +108,7 @@ ai-investment-portfolio-assistant/
 ## Installation and Setup
 
 ### 1. Clone the Repository
-git clone https://github.com/YOUR_USERNAME/ai-investment-portfolio-assistant.git
+git clone https://github.com/OAkshay6/ai-investment-portfolio-assistant.git
 
 cd ai-investment-portfolio-assistant
 
