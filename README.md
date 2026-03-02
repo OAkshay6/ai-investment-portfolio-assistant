@@ -97,9 +97,13 @@ Chat history is maintained using Streamlit session state.
 
 ai-investment-portfolio-assistant
 > ai_investment_portfolio_assistant.py
+
 > README.md
+
 > .gitignore
+
 > .env (not pushed to GitHub)
+
 > requirements.txt
 
 ---
